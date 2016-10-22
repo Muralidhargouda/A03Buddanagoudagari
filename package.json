@@ -1,0 +1,19 @@
+{
+    "name": "A03Buddanagoudagari",
+    "version": "0.0.1",
+    "description": "simple guestbook app",
+    "main": "gbapp.js",
+    "dependencies": {
+        "express": "latest",
+        "morgan": "latest",
+        "body-parser": "latest",
+        "ejs": "latest"
+    },
+    "author": "Muralidhar Gouda Buddanagoudagari",
+    "homepage": "https://github.com/Muralidhargouda/A03Buddanagoudagari",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Muralidhargouda/A03Buddanagoudagari"
+    },
+    "license": "Apache-2.0"
+}
