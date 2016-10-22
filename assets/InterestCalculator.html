@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>InterestCalculator</title>
+<meta charset="utf-8"><meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="A01.css">
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body id="body3">
+<header>
+   
+<nav class="navbar navbar-inverse navbar-fixed-top"  >
+  <div class="container-fluid">
+    <div class="navbar-header" id="nav2" >
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <h5 class="navbar-brand">Muralidhar</h5>
+    </div>
+    <div class="collapse navbar-collapse" id="navigation">
+      <ul class="nav navbar-nav" >
+      <li ><a href="http://127.0.0.1:8081/index.html">Home</a></li> 
+      <li><a  href="http://127.0.0.1:8081/InterestCalculator.html">InterestCalculator</a></li>
+      <li><a href="http://127.0.0.1:8081/Contact.html">Contact</a></li>
+			<li><a href="http://127.0.0.1:8081/views/index.ejs"><span class="heads">Guest Book</span> </a></li>
+    </ul>     
+    </div>
+  </div>
+</nav>
+  </nav>
+</header>
+<div class="container" id="div4">
+		<h1 id="header1">InterestCalculator</h1><br><br>
+		<form action=" " method="get" >
+		<label id="l03">Principle Amount * &nbsp;&nbsp;</label>
+		<input id="t01" type="number" min="1" name="Principle amount"/><br><br>
+		<label id="l04">Interest Rate(%) *</label>
+		<input id="t02" type="number" min="0" name="Interest Rate(%)"/><br><br>
+		<label id="l05">Term*</label>
+		<label id="l09">Months</label>
+		<input id="r03" type="radio" name="term">
+		<label id="l10">Years</label>
+		<input id="r04" type="radio" name="term">
+		<br><br>
+		<label id="l07">Simple Interest</label>
+		<input id="r01" type="radio" name="Interest" value="SI">
+		<label id="l08">Compound Interest</label>
+		<input id="r02" type="radio" name="Interest" value="CI">	
+  
+  <br><br><br><button  onClick="calc()" id="b03">Calculate</button>
+	<!--<button type="reset" value="Reset" id="b05">Reset</button>-->
+	
+		</form>
+		
+		
+
+</div>
+	<script type="text/javascript" src="murali.js"></script>
+</body>
+</html>
